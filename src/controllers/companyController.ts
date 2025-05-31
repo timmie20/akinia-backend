@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { CompanyService } from "../services/companyService";
-import { CreateCompanyDTO, UpdateCompanyDTO } from "../types/company.types";
+import { UpdateCompanyDTO } from "../types/company.types";
 
 export class CompanyController {
   static async getAllCompanies(req: Request, res: Response) {
